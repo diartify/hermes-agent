@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "DOCKERFILE"
+  },
+  "deploy": {
+    "startCommand": "gateway run",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
